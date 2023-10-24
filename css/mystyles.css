@@ -1,0 +1,108 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+
+    gap: 10px;
+    box-sizing: border-box;
+
+    font-size: 20px;
+
+    background-color: rgba(39, 39, 39, 0.89);
+
+}
+
+.container div{
+    padding: 10px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    background-image: url(./photos/cit\ transparent.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    font-family: 'Karla', sans-serif;
+    color: rgba(184, 135, 11, 0.845);
+}
+.navigation{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.info1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    font-weight: normal;
+    font-family: 'Pridi', serif;
+    font-size: 16px;
+    color: rgba(184, 135, 11, 0.845);
+
+}
+
+.img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    font-family: 'Pridi', serif;
+    font-size: 16px;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 15px;
+}
+img{
+    width: auto;
+    height: auto;
+}
+ol{
+    font-weight: normal;
+    font-size: 15px;
+}
+a{
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+a:hover{
+    padding: 5px;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: darkgoldenrod;
+    
+}
+h4{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    background-image: url(./photos/book-icon-by-sonoftroll-26.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    color: black;
+}
+h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    padding-left: 40px;
+    background-image: url(./photos/question\ mark.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+
+}
